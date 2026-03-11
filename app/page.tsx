@@ -447,7 +447,7 @@ const Navbar = () => (
   </nav>
 );
 
-const ServiceModal = ({ service, onClose }) => {
+const ServiceModal = ({ service, onClose }: { service?: any; onClose: () => void }) => {
   if (!service) return null;
 
   return (
