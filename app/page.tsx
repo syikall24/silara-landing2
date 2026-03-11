@@ -407,7 +407,7 @@ const WhatsAppIcon = ({ size = 24, className = "" }) => (
   </svg>
 );
 
-const Logo = ({ className }) => {
+const Logo = ({ className }: { className?: string }) => {
   const [imgError, setImgError] = useState(false);
   return (
     <div className={`shrink-0 ${className}`}>
