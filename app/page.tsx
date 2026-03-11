@@ -420,7 +420,7 @@ const Logo = ({ className }: { className?: string }) => {
         />
       ) : (
         <div className="w-full h-full bg-emerald-600 rounded-full flex items-center justify-center text-white shadow-inner border border-emerald-500/50">
-          <Scale size={className.includes('w-14') ? 28 : 24} />
+          <Scale size={className?.includes('w-14') ? 28 : 24} />
         </div>
       )}
     </div>
